@@ -54,19 +54,19 @@ export default function EditorPage() {
             name: 'Background',
             canvas: bgCanvas,
             opacity: 255,
-            blendMode: 'normal',
+            blendMode: 'normal' as const,
           },
           {
             name: 'Blue Rectangle',
             canvas: rectCanvas,
             opacity: 255,
-            blendMode: 'normal',
+            blendMode: 'normal' as const,
           },
           {
             name: 'Optimized by TU-Designer',
             canvas: textCanvas,
             opacity: 255,
-            blendMode: 'normal',
+            blendMode: 'normal' as const,
           },
         ],
       }
@@ -183,12 +183,12 @@ export default function EditorPage() {
                 PSD Export Preview
               </h3>
               <p className="text-sm text-blue-800 mb-2">
-                When you click "Download PSD", you'll get a file with:
+                When you click &quot;Download PSD&quot;, you&apos;ll get a file with:
               </p>
               <ul className="text-sm text-blue-700 space-y-1 ml-4">
                 <li>• Layer 1: Solid white background</li>
                 <li>• Layer 2: Blue rectangle shape</li>
-                <li>• Layer 3: Text layer "Optimized by TU-Designer"</li>
+                <li>• Layer 3: Text layer &quot;Optimized by TU-Designer&quot;</li>
               </ul>
             </div>
           </div>

@@ -13,7 +13,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "lucide-react": "^0.292.0",
-    "ag-psd": "^16.0.2",
+    "ag-psd": "^28.5.1",
     "clsx": "^2.0.0",
     "tailwind-merge": "^2.1.0"
   },
