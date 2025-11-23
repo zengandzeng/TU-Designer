@@ -1,0 +1,22 @@
+{
+  "name": "tu-designer",
+  "version": "0.1.0",
+  "description": "改图大师 - AI 智能设计评分与文件生成工具",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ag-psd": "^28.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-config-next": "^14.0.4"
+  }
+}
