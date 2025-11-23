@@ -24,9 +24,7 @@ export default function Home() {
                 fontSize: 36,
                 fillColor: { r: 0, g: 0, b: 0 },
               },
-              transform: {
-                xx: 1, xy: 0, yx: 0, yy: 1, tx: 100, ty: 300,
-              },
+              transform: [1, 0, 0, 1, 100, 300],
             },
           },
         ],
